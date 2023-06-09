@@ -26,7 +26,12 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        audioFile = Bundle.main.url(forResource: "Sicilian_Breeze", withExtension: "mp3")
         // Do any additional setup after loading the view.
+    }
+    
+    func initPlay() {
+        
     }
 
     @IBAction func btnPlayAudio(_ sender: UIButton) {
