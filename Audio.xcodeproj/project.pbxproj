@@ -16,6 +16,7 @@
 		A3FCC5122A3359DF00E382A5 /* AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC5112A3359DF00E382A5 /* AudioTests.swift */; };
 		A3FCC51C2A3359DF00E382A5 /* AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC51B2A3359DF00E382A5 /* AudioUITests.swift */; };
 		A3FCC51E2A3359DF00E382A5 /* AudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FCC51D2A3359DF00E382A5 /* AudioUITestsLaunchTests.swift */; };
+		A3FCC52B2A3364F300E382A5 /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A3FCC52A2A3364F300E382A5 /* Sicilian_Breeze.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A3FCC5172A3359DF00E382A5 /* AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FCC51B2A3359DF00E382A5 /* AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUITests.swift; sourceTree = "<group>"; };
 		A3FCC51D2A3359DF00E382A5 /* AudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3FCC52A2A3364F300E382A5 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		A3FCC4F92A3359DE00E382A5 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				A3FCC52A2A3364F300E382A5 /* Sicilian_Breeze.mp3 */,
 				A3FCC4FA2A3359DE00E382A5 /* AppDelegate.swift */,
 				A3FCC4FC2A3359DE00E382A5 /* SceneDelegate.swift */,
 				A3FCC4FE2A3359DE00E382A5 /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3FCC5072A3359DF00E382A5 /* LaunchScreen.storyboard in Resources */,
+				A3FCC52B2A3364F300E382A5 /* Sicilian_Breeze.mp3 in Resources */,
 				A3FCC5042A3359DF00E382A5 /* Assets.xcassets in Resources */,
 				A3FCC5022A3359DE00E382A5 /* Main.storyboard in Resources */,
 			);
