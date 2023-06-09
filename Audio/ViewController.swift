@@ -6,8 +6,15 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
+    var audioPlayer : AVAudioPlayer!
+    
+    var audioFile : URL!
+    
+    let MAX_VOLUME : Float = 10.0
+    var progressTimer : Timer!
 
     @IBOutlet var pvProgressPlay: UIProgressView!
     @IBOutlet var lblCurrentTime: UILabel!
